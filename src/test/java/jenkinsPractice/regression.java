@@ -15,4 +15,12 @@ public class regression {
 	{
 		System.out.println("Reg2 test executed");
 	}
+	
+	@Test
+	public void test3()
+	{
+		String BROWSER = System.getProperty("browser");
+		String ENV = System.getProperty("url");
+		System.out.println("Browser --> "+BROWSER+" Env -->"+ENV);
+	}
 }
